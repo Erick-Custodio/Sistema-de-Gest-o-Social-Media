@@ -1,0 +1,22 @@
+# Arquivos que NÃO vão para o GitHub (dados de clientes, e-mail pessoal, mídia)
+
+# dados dos clientes (nomes, telefones, conteúdos) usados só na migração
+supabase/2-migracao-dados.sql
+# contém o e-mail da administradora
+supabase/3-criar-admin.sql
+# vídeo de cliente
+migracao/
+# versão antiga com dados embutidos
+central-conteudo.html
+
+# chaves e configurações locais
+.env
+.env.*
+.vercel/
+*.key
+*.pem
+
+# lixo do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
